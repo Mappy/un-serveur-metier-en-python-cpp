@@ -1,3 +1,8 @@
+#include <string>
+using namespace std;
+
+const float EARTH_RADIUS = 6371;
+
 class GeoPoint
 {
 public:
@@ -7,3 +12,5 @@ private:
     double lat;
     double lng;
 };
+
+string geocoord2string(double angle);
