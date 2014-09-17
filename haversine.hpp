@@ -1,1 +1,9 @@
-double GeoDistance( double nLat1, double nLon1, double nLat2, double nLon2 );
+class GeoPoint
+{
+public:
+    GeoPoint(double lat, double lng);
+    double distance(const GeoPoint &other);
+private:
+    double lat;
+    double lng;
+};
