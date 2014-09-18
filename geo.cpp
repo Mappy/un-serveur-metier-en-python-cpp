@@ -1,6 +1,6 @@
 #define _USE_MATH_DEFINES
 #include <cmath>
-#include "haversine.hpp"
+#include "geo.hpp"
 #include <sstream>
 
 string geocoord2string(double angle) {

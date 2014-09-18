@@ -1,8 +1,8 @@
-main: main.o haversine.o
-	g++ -o main haversine.o main.o
+main: main.o geo.o
+	g++ -o main geo.o main.o
 
-haversine.o: haversine.cpp
-	g++ -o haversine.o -c haversine.cpp 
+haversine.o: geo.cpp
+	g++ -o geo.o -c geo.cpp 
 
 main_next.o: main.cpp
 	g++ -o main.o -c main.cpp -g -Wall
