@@ -2,6 +2,7 @@ from distutils.core import setup, Extension
 
 geo_module = Extension('geo',
                     include_dirs = ['/usr/local/include',],
+                    libraries = ['boost_python'],
                     library_dirs = ['/usr/local/lib',],
                     sources = ['geomodule.cpp', 'geo.cpp'])
 
