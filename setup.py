@@ -3,6 +3,7 @@ from distutils.core import setup, Extension
 geo_module = Extension('geo',
                     include_dirs = ['/usr/local/include',],
                     library_dirs = ['/usr/local/lib',],
+                    extra_compile_args=['-std=c++11'],
                     sources = ['geomodule.cpp', 'geo.cpp'])
 
 setup (name = 'Geo',
