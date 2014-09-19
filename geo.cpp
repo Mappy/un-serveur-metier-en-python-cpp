@@ -2,8 +2,11 @@
 #include <cmath>
 #include "geo.hpp"
 #include <sstream>
+#include <stdexcept>
 
 string geocoord2string(double angle) {
+	if ( (angle > 180) || (angle < -180) )
+		throw invalid_argument("Invalid argument : angle must be beetween -180° and 180°");
 	int deg = int(floor(angle));
 	double rest = angle - deg;
 	int minute = int(floor( rest * 60));
