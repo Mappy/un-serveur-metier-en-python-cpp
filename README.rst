@@ -1,3 +1,4 @@
+----------------------------------------
 Développer une extension C++ pour Python
 ----------------------------------------
 
@@ -16,14 +17,16 @@ Dépendances :
 * Gcc
 * Python
 
-Installation :
+Installation::
+
     git checkout https://github.com/Mappy/un-serveur-metier-en-python-cpp.git
     sudo python setup.py install
 
 
 Démarrage
 ---------
-Tester :
+Tester ::
+
     python
     import geo
     print geo.geocoord2string(5.36)
