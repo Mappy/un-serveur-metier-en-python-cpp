@@ -17,15 +17,13 @@ Dépendances :
 * Python
 
 Installation :
-.. code-block:: bash
-git checkout https://github.com/Mappy/un-serveur-metier-en-python-cpp.git
-sudo python setup.py install
+    git checkout https://github.com/Mappy/un-serveur-metier-en-python-cpp.git
+    sudo python setup.py install
 
 
 Démarrage
 ---------
 Tester :
-.. code-block:: bash
-python
-import geo
-print geo.geocoord2string(5.36)
+    python
+    import geo
+    print geo.geocoord2string(5.36)
