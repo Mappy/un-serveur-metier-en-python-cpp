@@ -27,6 +27,7 @@ Démarrage
 ---------
 Tester ::
 
-    python
-    import geo
-    print geo.geocoord2string(5.36)
+    $ python
+    >>> import geo
+    >>> print geo.geocoord2string(5.36)
+
