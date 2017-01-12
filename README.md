@@ -2,7 +2,7 @@
 Développer une extension C++ pour Python
 ----------------------------------------
 
-Cet exemple est un support pour la présentation au Meet-up C++ le 2 octobre 2014 à Paris : http://www.meetup.com/User-Group-Cpp-Francophone/events/181945092/
+Cet exemple est un support pour la [présentation](prez.md) au [Meet-up C++ le 2 octobre 2014 à Paris](http://www.meetup.com/User-Group-Cpp-Francophone/events/181945092/). 
 
 Il décrit comment exposer en Python une bibliothèque C++ existante, en l'occurence geo.cpp, pour faire un serveur web qui l'utilise.
 
